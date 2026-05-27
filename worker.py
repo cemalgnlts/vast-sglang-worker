@@ -16,6 +16,7 @@ from vastai import (
 MODEL_SERVER_URL  = "http://127.0.0.1"
 MODEL_SERVER_PORT = 3000
 MODEL_LOG_FILE    = "/var/log/portal/vllm.log"
+MODEL_HEALTHCHECK_ENDPOINT = "/health"
 
 # vLLM-specific log messages
 MODEL_LOAD_LOG_MSG = [
@@ -60,7 +61,7 @@ worker_config = WorkerConfig(
     model_server_url=MODEL_SERVER_URL,
     model_server_port=MODEL_SERVER_PORT,
     model_log_file=MODEL_LOG_FILE,
-
+    model_healthcheck_url=MODEL_HEALTHCHECK_ENDPOINT,
     handlers=[
         # /v1/completions: also used as the benchmark handler
         HandlerConfig(
