@@ -26,9 +26,11 @@ MODEL_ERROR_LOG_MSGS = [
     "INFO:     Application shutdown complete.",
     "INFO: Application shutdown complete.",
     "Traceback (most recent call last):",
+    "Initialization failed. warmup error: Traceback (most recent call last):"
 ]
 
 MODEL_INFO_LOG_MSGS = [
+        "Init torch distributed begin."
 ]
 
 # --- Benchmark data generation -----------------------------------------------
