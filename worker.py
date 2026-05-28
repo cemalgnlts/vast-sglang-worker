@@ -14,7 +14,7 @@ from vastai import (
 # --- Model configuration ------------------------------------------------------
 
 MODEL_SERVER_URL  = "http://127.0.0.1"
-MODEL_SERVER_PORT = 3000
+MODEL_SERVER_PORT = 1800
 MODEL_LOG_FILE    = "/var/log/portal/vllm.log"
 MODEL_HEALTHCHECK_ENDPOINT = "/health"
 
