@@ -15,7 +15,7 @@ from vastai import (
 
 MODEL_SERVER_URL  = "http://127.0.0.1"
 MODEL_SERVER_PORT = 1800
-MODEL_LOG_FILE    = "/var/log/portal/vllm.log"
+MODEL_LOG_FILE    = "/var/log/portal/sglang.log"
 MODEL_HEALTHCHECK_ENDPOINT = "/health"
 
 # vLLM-specific log messages
