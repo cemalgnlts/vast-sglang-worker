@@ -21,6 +21,8 @@ MODEL_HEALTHCHECK_ENDPOINT = "/health"
 # vLLM-specific log messages
 MODEL_LOAD_LOG_MSG = [
     "The server is fired up and ready to roll!",
+    "INFO:     Application startup complete.",
+    "INFO: Application startup complete."
 ]
 
 MODEL_ERROR_LOG_MSGS = [
